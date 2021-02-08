@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{E8DB13B5-15AD-443F-BA4B-611BD68A7516}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{16BE35CF-9198-4B8E-9CF1-B3DE8BCA2A8A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -341,7 +341,7 @@
         <NodeLayout
           Size="139,42"
           Id="Package\Sammy Task"
-          TopLeft="616,178" />
+          TopLeft="311,84" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -351,13 +351,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="139,42"
-          Id="Package\Data Flow Task\Excel Source"
-          TopLeft="182,68" />
-        <NodeLayout
           Size="148,42"
           Id="Package\Data Flow Task\Excel Source 1"
           TopLeft="418,80" />
+        <NodeLayout
+          Size="139,42"
+          Id="Package\Data Flow Task\Excel Source"
+          TopLeft="182,68" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
